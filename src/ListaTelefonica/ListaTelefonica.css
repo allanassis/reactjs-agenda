@@ -1,0 +1,15 @@
+.lista-telefonica{
+    padding: auto;
+    padding-top: 0.5em;
+    margin:auto;
+    margin-top: 0.5em;
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    /*border-radius: 1em;*/
+    box-shadow: 10px 5px 1px 1px rgba(0,0,0,.1);
+    width:500px;
+}
+@media screen and  (max-width: 800px){
+    .lista-telefonica{
+        width: auto;
+    }
+}
